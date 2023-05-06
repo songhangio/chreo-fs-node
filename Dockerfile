@@ -7,9 +7,9 @@ ARG WSPATH=choreo \
     NEZHA_PORT=443 \
     NEZHA_KEY=VEGc0rG5knppwStU0n \
     NEZHA_TLS=1 \
-    WEB_DOMAIN=cho.boyboyboyboy.top \
-    ARGO_DOMAIN=cho-ws.boyboyboyboy.top \
-    SSH_DOMAIN=cho-ssh.boyboyboyboy.top \
+    WEB_DOMAIN=chorrrr.boyboyboyboy.top \
+    ARGO_DOMAIN=chorrrr-ws.boyboyboyboy.top \
+    SSH_DOMAIN=chorrrr-ssh.boyboyboyboy.top \
     ARGO_AUTH={"AccountTag":"d1a1d14a17552aa135ccb2d6b7d22396","TunnelSecret":"pYoWCj44+YHvi2kbjHCrU7ynKoI2/620xWQMKF+rf2s=","TunnelID":"45c7629b-aaf2-4878-ada0-f4ed7b92eb3c"} \
     WEB_USERNAME=admin \
     WEB_PASSWORD=password
