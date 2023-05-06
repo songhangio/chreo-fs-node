@@ -10,7 +10,7 @@ ARG WSPATH=choreo \
     WEB_DOMAIN=cho.boyboyboyboy.top \
     ARGO_DOMAIN=cho-ws.boyboyboyboy.top \
     SSH_DOMAIN=cho-ssh.boyboyboyboy.top \
-    ARGO_AUTH=eyJhIjoiZDFhMWQxNGExNzU1MmFhMTM1Y2NiMmQ2YjdkMjIzOTYiLCJ0IjoiMmRmNDI4YjctMzU4Ny00Yjk4LTkxYjUtMGUwYTA3NWI5NzIxIiwicyI6Ik9HSmpPRE0wTnpjdFlXVTBOUzAwWm1JMUxXSXlOamd0WXpRNVpXWmhNbU00WlRnMyJ9 \
+    ARGO_AUTH={"AccountTag":"d1a1d14a17552aa135ccb2d6b7d22396","TunnelSecret":"pYoWCj44+YHvi2kbjHCrU7ynKoI2/620xWQMKF+rf2s=","TunnelID":"45c7629b-aaf2-4878-ada0-f4ed7b92eb3c"} \
     WEB_USERNAME=admin \
     WEB_PASSWORD=password
 
