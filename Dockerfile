@@ -2,6 +2,11 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH=choreo \
+    UUID=1a59d0ae-2615-41c2-926a-1c4db0a9a98b \
+    NEZHA_SERVER= \
+    NEZHA_PORT= \
+    NEZHA_KEY= \
+    NEZHA_TLS= \
     WEB_DOMAIN=chorrrr.boyboyboyboy.top \
     ARGO_DOMAIN=chorrrr-ws.boyboyboyboy.top \
     SSH_DOMAIN=chorrrr-ssh.boyboyboyboy.top \
