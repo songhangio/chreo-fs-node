@@ -1,9 +1,12 @@
 FROM node:latest
 
 # 设置各变量
-ARG UUID=1a59d0ae-2615-41c2-926a-1c4db0a9a98b \
-    ARGO_DOMAIN=choreonode.boyboyboyboy.top \
-    ARGO_AUTH=eyJhIjoiZDFhMWQxNGExNzU1MmFhMTM1Y2NiMmQ2YjdkMjIzOTYiLCJ0IjoiYTkwN2EyNTYtNDYwNC00NDM1LTlhZDItZDkxMzg3MTQ2ZTk4IiwicyI6Ik5qSXdaVEZqT1dZdE9ETTVZaTAwWXpJNExXSmxaakV0WmpReU1qQm1PV0kyWldWbCJ9
+ARG WSPATH=choreography \
+    UUID=1a59d0ae-2615-41c2-926a-1c4db0a9a98b \
+    WEB_DOMAIN=cho.boyboyboyboy.top \
+    SSH_DOMAIN=cho-ssh.boyboyboyboy.top \
+    ARGO_DOMAIN=cho-ws.boyboyboyboy.top \
+    ARGO_AUTH=eyJhIjoiZDFhMWQxNGExNzU1MmFhMTM1Y2NiMmQ2YjdkMjIzOTYiLCJ0IjoiMmRmNDI4YjctMzU4Ny00Yjk4LTkxYjUtMGUwYTA3NWI5NzIxIiwicyI6Ik5qZG1aVGxrTkRFdE5UWmtNUzAwT0dZM0xXSTJOV1l0TlRsbVpqUmtOREl4TjJNMyJ9
    
     
 # 此处不用改，保留即可
