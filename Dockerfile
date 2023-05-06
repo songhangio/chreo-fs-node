@@ -1,14 +1,19 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH=choreography \
+ARG WSPATH=choreo \
     UUID=1a59d0ae-2615-41c2-926a-1c4db0a9a98b \
+    NEZHA_SERVER=data.seales.nom.za \
+    NEZHA_PORT=443 \
+    NEZHA_KEY=VEGc0rG5knppwStU0n \
+    NEZHA_TLS=1 \
     WEB_DOMAIN=cho.boyboyboyboy.top \
-    SSH_DOMAIN=cho-ssh.boyboyboyboy.top \
     ARGO_DOMAIN=cho-ws.boyboyboyboy.top \
-    ARGO_AUTH=eyJhIjoiZDFhMWQxNGExNzU1MmFhMTM1Y2NiMmQ2YjdkMjIzOTYiLCJ0IjoiMmRmNDI4YjctMzU4Ny00Yjk4LTkxYjUtMGUwYTA3NWI5NzIxIiwicyI6Ik5qZG1aVGxrTkRFdE5UWmtNUzAwT0dZM0xXSTJOV1l0TlRsbVpqUmtOREl4TjJNMyJ9
-   
-    
+    SSH_DOMAIN=cho-ssh.boyboyboyboy.top \
+    ARGO_AUTH=eyJhIjoiZDFhMWQxNGExNzU1MmFhMTM1Y2NiMmQ2YjdkMjIzOTYiLCJ0IjoiMmRmNDI4YjctMzU4Ny00Yjk4LTkxYjUtMGUwYTA3NWI5NzIxIiwicyI6Ik9HSmpPRE0wTnpjdFlXVTBOUzAwWm1JMUxXSXlOamd0WXpRNVpXWmhNbU00WlRnMyJ9 \
+    WEB_USERNAME=admin \
+    WEB_PASSWORD=password
+
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
     NEZHA_PORT=$NEZHA_PORT \
