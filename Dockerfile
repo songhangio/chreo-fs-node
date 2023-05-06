@@ -1,18 +1,9 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH= \
-    UUID= \
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
-    NEZHA_TLS= \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
-    SSH_DOMAIN= \
-    ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+ARG UUID=1a59d0ae-2615-41c2-926a-1c4db0a9a98b
+    ARGO_DOMAIN=choreonode.boyboyboyboy.top
+    ARGO_AUTH=eyJhIjoiZDFhMWQxNGExNzU1MmFhMTM1Y2NiMmQ2YjdkMjIzOTYiLCJ0IjoiYTkwN2EyNTYtNDYwNC00NDM1LTlhZDItZDkxMzg3MTQ2ZTk4IiwicyI6Ik5qSXdaVEZqT1dZdE9ETTVZaTAwWXpJNExXSmxaakV0WmpReU1qQm1PV0kyWldWbCJ9
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
